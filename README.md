@@ -88,3 +88,78 @@ This project helped me strengthen my understanding of Python programming concept
 
 ---
 
+
+# Task: 2 API Integration Project using Python
+
+# Project Overview
+
+This project is a simple Python-based API Integration application developed to fetch real-time cryptocurrency prices using an external API. The application interacts with the CoinGecko API to retrieve live cryptocurrency data and display it in a user-friendly format.
+
+The project demonstrates how APIs work in Python using the requests library and how JSON data returned from APIs can be parsed and displayed effectively. It also includes proper error handling to manage invalid requests or connection issues.
+
+# Features
+* Fetches real-time cryptocurrency prices
+* Uses external API integration
+* Supports multiple cryptocurrencies
+* User-friendly console interface
+* Displays cryptocurrency price in USD
+* Implements error handling
+* Beginner-friendly Python project
+  
+# Concepts Used
+* API Integration
+* HTTP GET Requests
+* JSON Data Parsing
+* Functions
+* Conditional Statements (if-else)
+* Exception Handling (try-except)
+* User Input Handling
+  
+# Objectives
+* Use the requests library to make GET requests to an API
+* Fetch live cryptocurrency data from an external API
+* Parse and display JSON response data
+* Display output in a readable format
+* Handle errors such as:
+* Failed API requests
+* Invalid cryptocurrency names
+* Internet connection issues
+
+# How the Program Works
+* The user enters the name of a cryptocurrency.
+* The program sends a GET request to the CoinGecko API.
+* The API returns live cryptocurrency price data in JSON format.
+* The program converts the JSON response into a Python dictionary.
+* The cryptocurrency price is extracted and displayed.
+* Error handling manages invalid responses and connection failures.
+
+
+# API Used
+
+This project uses the free public API provided by:
+CoinGecko API
+
+# Error Handling Implemented
+* Invalid cryptocurrency names
+* Failed API requests
+* Internet connection issues
+* Invalid responses
+
+# Learning Outcomes
+
+Through this project, I learned:
+
+* How APIs work
+* Making HTTP requests using Python
+* Parsing JSON data
+* Error handling techniques
+* Real-world API integration
+* Building practical Python applications
+
+# Acknowledgement
+
+This project helped me gain practical knowledge of API integration, JSON data handling, and real-world Python development concepts. It also improved my understanding of external services and HTTP requests.
+
+Completing this project has been a valuable learning experience and an important step in improving my software development skills.
+
+
