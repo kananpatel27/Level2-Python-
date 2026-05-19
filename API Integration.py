@@ -1,6 +1,6 @@
 import requests
 
-def get_crypto_price(crypto_name):  #Functio to fetch cryptocurrency price 
+def get_crypto_price(crypto_name):  #Function to fetch cryptocurrency price 
     
     url = f"https://api.coingecko.com/api/v3/simple/price?ids={crypto_name}&vs_currencies=usd"   #API URL
 
